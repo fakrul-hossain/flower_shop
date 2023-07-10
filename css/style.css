@@ -108,10 +108,30 @@ nav {
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
+    gap: 24px;
+}
+.feature_item{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
 }
 .feature_item1{
-    border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.feature_item2{
+    background: rgba(5, 151, 160, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.feature_item3{
+    background: rgba(71, 125, 17, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 .feature_item_name{
     color: #272727;
@@ -119,5 +139,6 @@ background: rgba(167, 33, 98, 0.15);
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+    padding-top: 32px;
 }
 /* feature section end*/
