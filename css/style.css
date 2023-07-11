@@ -207,7 +207,7 @@ a:hover {
   margin-top: 150px;
 }
 .contract_detalis{
-  padding-bottom: 50px;
+  padding-bottom: 105px;
 }
 .contract input{
   border-radius: 8px;
@@ -225,3 +225,27 @@ a:hover {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
 /* contract section end */
+/* footer start  */
+footer{
+  background: #111010;
+  margin-top: 100px;
+}
+.footer_area{
+  text-align: center;
+  color: #FFF;
+  padding: 110px;
+}
+.footer_description{
+  color: rgba(255, 255, 255, 0.90);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* footer end */
