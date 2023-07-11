@@ -5,7 +5,12 @@
 body {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
-main {
+section, .footer_area {
+  padding-top: 150px;
+}
+.customer_section,
+.offer_details,
+.feature, .instagram, .contract, .footer_area {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -101,7 +106,6 @@ a:hover {
   color: rgba(39, 39, 39, 0.6);
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
   padding: 32px 0 32px 0;
 }
 /* header css end*/
@@ -150,10 +154,10 @@ a:hover {
   justify-content: space-evenly;
   align-items: center;
 }
-.customer_services{
-    text-align: center;
+.customer_services {
+  text-align: center;
 }
-.cusotmer_description {
+.customer_description {
   color: rgba(39, 39, 39, 0.8);
   text-align: center;
   font-size: 21px;
@@ -161,3 +165,63 @@ a:hover {
   padding-top: 20px;
 }
 /* customer section end */
+/* offers section start */
+.offers{
+  background: rgba(229, 84, 115, 0.05);
+}
+.offer_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.offers_description{
+  text-align: center;
+  margin: 0 auto;
+}
+.offers_title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0 auto;
+}
+/* offers section end */
+/* instagram section start */
+.instagram{
+  text-align: center;
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30;
+}
+.gallery img{
+  border-radius: 10px;
+}
+/* instagram section end */
+/* contract section start */
+.contract{
+  background: url(/img/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+  text-align: center;
+  margin-top: 150px;
+}
+.contract_detalis{
+  padding-bottom: 50px;
+}
+.contract input{
+  border-radius: 8px;
+  background: #FFF;
+  border: none;
+  padding: 20px 0;
+  width: 700px;
+  margin-right: 20px;
+}
+.contract ::placeholder{
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 15px;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
+/* contract section end */
