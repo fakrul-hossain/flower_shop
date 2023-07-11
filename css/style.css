@@ -5,12 +5,17 @@
 body {
   font-family: "Sofia Sans Semi Condensed", sans-serif;
 }
-section, .footer_area {
+section,
+.footer_area {
   padding-top: 150px;
 }
 .customer_section,
 .offer_details,
-.feature, .instagram, .contract, .footer_area, .about {
+.feature,
+.instagram,
+.contract,
+.footer_area,
+.about {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -36,7 +41,6 @@ section, .footer_area {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  
 }
 section {
   margin-top: 100px;
@@ -167,16 +171,15 @@ a:hover {
 }
 /* customer section end */
 /* offers section start */
-.offers{
+.offers {
   background: rgba(229, 84, 115, 0.05);
 }
 .offer_details {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
-.offers_description{
+.offers_description {
   text-align: center;
   margin: 0 auto;
 }
@@ -188,38 +191,39 @@ a:hover {
 }
 /* offers section end */
 /* instagram section start */
-.instagram{
+.instagram {
   text-align: center;
 }
-.gallery{
+.gallery {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30;
 }
-.gallery img{
+.gallery img {
   border-radius: 10px;
 }
 /* instagram section end */
 /* contract section start */
-.contract{
-  background: url(/img/Rectangle\ 9.png), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+.contract {
+  background: url(/img/Rectangle\ 9.png),
+    lightgray 0px -203.444px / 100% 213.755% no-repeat;
   text-align: center;
   margin-top: 150px;
 }
-.contract_detalis{
+.contract_detalis {
   padding-bottom: 105px;
 }
-.contract input{
+.contract input {
   border-radius: 8px;
-  background: #FFF;
+  background: #fff;
   border: none;
   padding: 20px 0;
   width: 700px;
   margin-right: 20px;
 }
-.contract ::placeholder{
-  color: rgba(39, 39, 39, 0.60);
+.contract ::placeholder {
+  color: rgba(39, 39, 39, 0.6);
   font-size: 16px;
   font-weight: 400;
   padding-left: 15px;
@@ -227,23 +231,23 @@ a:hover {
 }
 /* contract section end */
 /* footer start  */
-footer{
+footer {
   background: #111010;
   margin-top: 100px;
 }
-.footer_area{
+.footer_area {
   text-align: center;
-  color: #FFF;
+  color: #fff;
   padding: 110px;
 }
-.footer_description{
-  color: rgba(255, 255, 255, 0.90);
+.footer_description {
+  color: rgba(255, 255, 255, 0.9);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
 }
-.copyright{
-  color: rgba(255, 255, 255, 0.40);
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -251,32 +255,37 @@ footer{
 
 /* footer end */
 /* about section start */
-
-.gift, .ceo{
+.about img {
+  border-radius: 5px;
+}
+.gift,
+.ceo {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
   gap: 100px;
 }
-.gift_title, .ceo_title{
+.gift_title,
+.ceo_title {
   font-size: 22px;
   padding: 15px 0 15px 0;
   color: #e55473;
 }
-.gift_description{
+.gift_description {
   font-size: 22px;
   margin-top: 30px;
 }
-.ceo_details, .ceo_para{
+.ceo_details,
+.ceo_para {
   margin-top: 30px;
 }
 
-.ceo_subtitle{
+.ceo_subtitle {
   padding: 15px 0 15px 0;
   font-size: 18px;
 }
-.ceo_description{
+.ceo_description {
   font-size: 22px;
 }
 /* about section end */
