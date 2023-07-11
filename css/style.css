@@ -10,7 +10,7 @@ section, .footer_area {
 }
 .customer_section,
 .offer_details,
-.feature, .instagram, .contract, .footer_area {
+.feature, .instagram, .contract, .footer_area, .about {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -250,3 +250,21 @@ footer{
 }
 
 /* footer end */
+/* about section start */
+
+.gift, .ceo{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 100px;
+}
+.gift_title{
+  font-size: 22px;
+  padding: 15px 0 15px 0;
+}
+.gift_description{
+  font-size: 22px;
+  margin-top: 30px;
+}
+/* about section end */
