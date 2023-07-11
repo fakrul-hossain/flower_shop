@@ -259,12 +259,24 @@ footer{
   /* align-items: center; */
   gap: 100px;
 }
-.gift_title{
+.gift_title, .ceo_title{
   font-size: 22px;
   padding: 15px 0 15px 0;
+  color: #e55473;
 }
 .gift_description{
   font-size: 22px;
   margin-top: 30px;
+}
+.ceo_details, .ceo_para{
+  margin-top: 30px;
+}
+
+.ceo_subtitle{
+  padding: 15px 0 15px 0;
+  font-size: 18px;
+}
+.ceo_description{
+  font-size: 22px;
 }
 /* about section end */
